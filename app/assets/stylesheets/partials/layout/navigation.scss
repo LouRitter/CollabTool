@@ -4,6 +4,9 @@ body {
 nav {
     .navbar-header {
       width: 100%;
+      .navbar-brand{
+        padding-top: 15px;
+      }
       button, .navbar-brand {
         transition: opacity 0.15s;
       }
@@ -16,6 +19,9 @@ nav {
     }
     .col-sm-5, .col-sm-7 {
       padding: 0;
+    }
+    .dropdown-menu.show{
+      position: absolute;   
     }
   }
 

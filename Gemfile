@@ -27,6 +27,7 @@ gem 'bootstrap_form'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'jquery-rails'
+gem 'bootstrap', '~> 4.1.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
