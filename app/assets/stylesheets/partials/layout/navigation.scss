@@ -2,6 +2,10 @@ body {
   margin-top: 50px;
  }
 nav {
+    flex-wrap: nowrap !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
     .navbar-header {
       width: 100%;
       .navbar-brand{
@@ -27,6 +31,7 @@ nav {
 
 .navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
     background: $navbarColor !important;
+    
     border: none;
     a {
       color: white !important;
